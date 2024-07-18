@@ -1,0 +1,91 @@
+<div class="card">
+  <div class="card-body" (submit)="procesar()">
+    <form [formGroup]="formDocument">
+      <div class="mb-2">
+        <label class="form-label">URE</label>
+        <input type="number" formControlName = "ure" class="form-control">
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Denomina</label>
+        <input type="text" formControlName = "denomina"  class="form-control">
+      </div>
+
+      <!-- <div class="mb-2">
+        <label class="form-label">Anio</label>
+        <input type="number" class="form-control">
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Secuencia</label>
+        <input type="number" class="form-control">
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Clasifica</label>
+        <input type="number" class="form-control">
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Fecha</label>
+        <input type="date" class="form-control">
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Tipo</label>
+        <input type="number" class="form-control">
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Valor</label>
+        <input type="number" class="form-control">
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Tramite</label>
+        <input type="number" class="form-control">
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Concentrado</label>
+        <input type="number" class="form-control">
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Ubica</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Archivo</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Status</label>
+        <input type="number" class="form-control">
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Descripcion</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Hojas</label>
+        <input type="number" class="form-control">
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Observa Valores</label>
+        <input type="text" class="form-control">
+      </div> -->
+
+      <button class="btn btn-primary">
+        Enviar
+      </button>
+    </form>
+  </div>
+</div>
+
+{{ ure.value }}
